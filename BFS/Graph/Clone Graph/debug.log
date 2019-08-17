@@ -1,0 +1,421 @@
+Starting var:.. node = <__main__.UndirectedGraphNode object at 0x118bbeb00>
+22:12:57.262650 call        16     def cloneGraph(node):
+22:12:57.268178 line        18         if not node:
+22:12:57.268308 line        20         to_be_visited_queue = [node]
+New var:....... to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x118bbeb00>]
+22:12:57.268531 line        21         clone = {}
+New var:....... clone = {}
+22:12:57.268695 line        22         finished = set()
+New var:....... finished = set()
+22:12:57.268858 line        23         while to_be_visited_queue:
+22:12:57.268960 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = []
+New var:....... current_node = <__main__.UndirectedGraphNode object at 0x118bbeb00>
+22:12:57.269279 line        25             if current_node.label not in clone:
+22:12:57.269380 line        26                 clone[current_node.label] = UndirectedGraphNode(current_node.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x118bf2f60>}
+22:12:57.269603 line        27             for neighbor in current_node.neighbors:
+New var:....... neighbor = <__main__.UndirectedGraphNode object at 0x118bbeb70>
+22:12:57.269782 line        28                 if neighbor.label not in clone:
+22:12:57.269881 line        29                     clone[neighbor.label] = UndirectedGraphNode(neighbor.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x118bf2fd0>}
+22:12:57.270102 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.270206 line        31                 finished.add(current_node.label)
+Modified var:.. finished = {1}
+22:12:57.270416 line        32                 if neighbor.label not in finished:
+22:12:57.270518 line        33                     to_be_visited_queue.append(neighbor)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x118bbeb70>]
+22:12:57.270735 line        27             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x118bbe908>
+22:12:57.270903 line        28                 if neighbor.label not in clone:
+22:12:57.271074 line        29                     clone[neighbor.label] = UndirectedGraphNode(neighbor.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x118bf2f98>}
+22:12:57.271291 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.271394 line        31                 finished.add(current_node.label)
+22:12:57.271497 line        32                 if neighbor.label not in finished:
+22:12:57.271638 line        33                     to_be_visited_queue.append(neighbor)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x118bb...ain__.UndirectedGraphNode object at 0x118bbe908>]
+22:12:57.271854 line        27             for neighbor in current_node.neighbors:
+22:12:57.271975 line        23         while to_be_visited_queue:
+22:12:57.272079 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x118bbe908>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x118bbeb70>
+22:12:57.272533 line        25             if current_node.label not in clone:
+22:12:57.272689 line        27             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x118bbeb00>
+22:12:57.272927 line        28                 if neighbor.label not in clone:
+22:12:57.273135 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.273269 line        31                 finished.add(current_node.label)
+Modified var:.. finished = {1, 2}
+22:12:57.273484 line        32                 if neighbor.label not in finished:
+22:12:57.273654 line        27             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x118bbe908>
+22:12:57.273902 line        28                 if neighbor.label not in clone:
+22:12:57.274007 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.274112 line        31                 finished.add(current_node.label)
+22:12:57.274249 line        32                 if neighbor.label not in finished:
+22:12:57.274455 line        33                     to_be_visited_queue.append(neighbor)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x118bb...ain__.UndirectedGraphNode object at 0x118bbe908>]
+22:12:57.274702 line        27             for neighbor in current_node.neighbors:
+22:12:57.274832 line        23         while to_be_visited_queue:
+22:12:57.274969 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x118bbe908>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x118bbe908>
+22:12:57.275255 line        25             if current_node.label not in clone:
+22:12:57.275362 line        27             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x118bbeb70>
+22:12:57.275624 line        28                 if neighbor.label not in clone:
+22:12:57.275786 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.275923 line        31                 finished.add(current_node.label)
+Modified var:.. finished = {1, 2, 4}
+22:12:57.276181 line        32                 if neighbor.label not in finished:
+22:12:57.276289 line        27             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x118bbeb00>
+22:12:57.276562 line        28                 if neighbor.label not in clone:
+22:12:57.276758 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.276888 line        31                 finished.add(current_node.label)
+22:12:57.277040 line        32                 if neighbor.label not in finished:
+22:12:57.277157 line        27             for neighbor in current_node.neighbors:
+22:12:57.277295 line        23         while to_be_visited_queue:
+22:12:57.277401 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = []
+22:12:57.277658 line        25             if current_node.label not in clone:
+22:12:57.277852 line        27             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x118bbeb70>
+22:12:57.278097 line        28                 if neighbor.label not in clone:
+22:12:57.278227 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.278362 line        31                 finished.add(current_node.label)
+22:12:57.278473 line        32                 if neighbor.label not in finished:
+22:12:57.278610 line        27             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x118bbeb00>
+22:12:57.278822 line        28                 if neighbor.label not in clone:
+22:12:57.278933 line        30                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:12:57.279042 line        31                 finished.add(current_node.label)
+22:12:57.279209 line        32                 if neighbor.label not in finished:
+22:12:57.279338 line        27             for neighbor in current_node.neighbors:
+22:12:57.279517 line        23         while to_be_visited_queue:
+22:12:57.279732 line        35         return clone[node.label]
+22:12:57.279838 return      35         return clone[node.label]
+Return value:.. <__main__.UndirectedGraphNode object at 0x118bf2f60>
+Starting var:.. node = <__main__.UndirectedGraphNode object at 0x119eddb00>
+22:20:06.509037 call        16     def cloneGraph(node):
+22:20:06.514887 line        18         if not node:
+22:20:06.515141 line        20         to_be_visited_queue = [node]
+New var:....... to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x119eddb00>]
+22:20:06.515470 line        21         clone = {}
+New var:....... clone = {}
+22:20:06.515781 line        22         finished = {}
+New var:....... finished = {}
+22:20:06.516215 line        23         while to_be_visited_queue:
+22:20:06.516425 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = []
+New var:....... current_node = <__main__.UndirectedGraphNode object at 0x119eddb00>
+22:20:06.516852 line        25             if current_node in finished:
+22:20:06.517003 line        27             if current_node.label not in clone:
+22:20:06.517131 line        28                 clone[current_node.label] = UndirectedGraphNode(current_node.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x119f11668>}
+22:20:06.517386 line        29             for neighbor in current_node.neighbors:
+New var:....... neighbor = <__main__.UndirectedGraphNode object at 0x119eddb70>
+22:20:06.517773 line        30                 if neighbor.label not in clone:
+22:20:06.518052 line        31                     clone[neighbor.label] = UndirectedGraphNode(neighbor.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x119f11f60>}
+22:20:06.518355 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:06.518518 line        33                 finished.add(current_node.label)
+22:20:06.518723 exception   33                 finished.add(current_node.label)
+AttributeError: 'dict' object has no attribute 'add'
+Call ended by exception
+Starting var:.. node = <__main__.UndirectedGraphNode object at 0x1140d0b00>
+22:20:16.597568 call        16     def cloneGraph(node):
+22:20:16.597789 line        18         if not node:
+22:20:16.597883 line        20         to_be_visited_queue = [node]
+New var:....... to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x1140d0b00>]
+22:20:16.598038 line        21         clone = {}
+New var:....... clone = {}
+22:20:16.598188 line        22         finished = set()
+New var:....... finished = set()
+22:20:16.598338 line        23         while to_be_visited_queue:
+22:20:16.598428 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = []
+New var:....... current_node = <__main__.UndirectedGraphNode object at 0x1140d0b00>
+22:20:16.598638 line        25             if current_node in finished:
+22:20:16.598729 line        27             if current_node.label not in clone:
+22:20:16.598819 line        28                 clone[current_node.label] = UndirectedGraphNode(current_node.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x1140ee668>}
+22:20:16.599160 line        29             for neighbor in current_node.neighbors:
+New var:....... neighbor = <__main__.UndirectedGraphNode object at 0x1140d0b70>
+22:20:16.599470 line        30                 if neighbor.label not in clone:
+22:20:16.599672 line        31                     clone[neighbor.label] = UndirectedGraphNode(neighbor.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x1140eef60>}
+22:20:16.599887 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.600023 line        33                 finished.add(current_node.label)
+Modified var:.. finished = {1}
+22:20:16.600272 line        34                 if neighbor.label not in finished:
+22:20:16.600474 line        35                     to_be_visited_queue.append(neighbor)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x1140d0b70>]
+22:20:16.600768 line        29             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x1140d0908>
+22:20:16.601071 line        30                 if neighbor.label not in clone:
+22:20:16.601317 line        31                     clone[neighbor.label] = UndirectedGraphNode(neighbor.label)
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x1140ee390>}
+22:20:16.601586 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.601721 line        33                 finished.add(current_node.label)
+22:20:16.601920 line        34                 if neighbor.label not in finished:
+22:20:16.602057 line        35                     to_be_visited_queue.append(neighbor)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x1140d...ain__.UndirectedGraphNode object at 0x1140d0908>]
+22:20:16.602325 line        29             for neighbor in current_node.neighbors:
+22:20:16.602435 line        23         while to_be_visited_queue:
+22:20:16.602538 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x1140d0908>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x1140d0b70>
+22:20:16.602770 line        25             if current_node in finished:
+22:20:16.602873 line        27             if current_node.label not in clone:
+22:20:16.602973 line        29             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x1140d0b00>
+22:20:16.603336 line        30                 if neighbor.label not in clone:
+22:20:16.603449 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.603637 line        33                 finished.add(current_node.label)
+Modified var:.. finished = {1, 2}
+22:20:16.603938 line        34                 if neighbor.label not in finished:
+22:20:16.604039 line        29             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x1140d0908>
+22:20:16.604278 line        30                 if neighbor.label not in clone:
+22:20:16.604519 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.604632 line        33                 finished.add(current_node.label)
+22:20:16.604778 line        34                 if neighbor.label not in finished:
+22:20:16.604879 line        35                     to_be_visited_queue.append(neighbor)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x1140d...ain__.UndirectedGraphNode object at 0x1140d0908>]
+22:20:16.605108 line        29             for neighbor in current_node.neighbors:
+22:20:16.605358 line        23         while to_be_visited_queue:
+22:20:16.605461 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x1140d0908>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x1140d0908>
+22:20:16.605785 line        25             if current_node in finished:
+22:20:16.605884 line        27             if current_node.label not in clone:
+22:20:16.605980 line        29             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x1140d0b70>
+22:20:16.606192 line        30                 if neighbor.label not in clone:
+22:20:16.606360 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.606560 line        33                 finished.add(current_node.label)
+Modified var:.. finished = {1, 2, 4}
+22:20:16.606782 line        34                 if neighbor.label not in finished:
+22:20:16.606890 line        29             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x1140d0b00>
+22:20:16.607124 line        30                 if neighbor.label not in clone:
+22:20:16.607324 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.607500 line        33                 finished.add(current_node.label)
+22:20:16.607614 line        34                 if neighbor.label not in finished:
+22:20:16.607719 line        29             for neighbor in current_node.neighbors:
+22:20:16.607945 line        23         while to_be_visited_queue:
+22:20:16.608138 line        24             current_node = to_be_visited_queue.pop(0)
+Modified var:.. to_be_visited_queue = []
+22:20:16.608426 line        25             if current_node in finished:
+22:20:16.608675 line        27             if current_node.label not in clone:
+22:20:16.608799 line        29             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x1140d0b70>
+22:20:16.609069 line        30                 if neighbor.label not in clone:
+22:20:16.609245 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.609353 line        33                 finished.add(current_node.label)
+22:20:16.609541 line        34                 if neighbor.label not in finished:
+22:20:16.609641 line        29             for neighbor in current_node.neighbors:
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x1140d0b00>
+22:20:16.609854 line        30                 if neighbor.label not in clone:
+22:20:16.610056 line        32                 clone[current_node.label].neighbors.append(clone[neighbor.label])
+22:20:16.610154 line        33                 finished.add(current_node.label)
+22:20:16.610339 line        34                 if neighbor.label not in finished:
+22:20:16.610438 line        29             for neighbor in current_node.neighbors:
+22:20:16.610628 line        23         while to_be_visited_queue:
+22:20:16.610730 line        37         return clone[node.label]
+22:20:16.610895 return      37         return clone[node.label]
+Return value:.. <__main__.UndirectedGraphNode object at 0x1140ee668>
+Starting var:.. node = <__main__.UndirectedGraphNode object at 0x11eb777f0>
+22:21:06.335168 call        14 
+22:21:06.341079 line        18 from _pydev_bundle import fix_getpass
+22:21:06.341464 line        20 from _pydev_bundle._pydev_filesystem_encoding import getfilesystemencoding
+New var:....... to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11eb777f0>]
+22:21:06.341881 line        21 from _pydev_bundle.pydev_is_thread_alive import is_thread_alive
+New var:....... clone = {}
+22:21:06.342258 line        22 from _pydev_imps._pydev_saved_modules import threading
+New var:....... finished = set()
+22:21:06.342625 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:06.342853 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = []
+New var:....... current_node = <__main__.UndirectedGraphNode object at 0x11eb777f0>
+22:21:06.343456 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:06.343713 line        26 from _pydevd_bundle import pydevd_utils
+22:21:06.343895 line        27 from _pydevd_bundle import pydevd_vars
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11eb8dbe0>}
+22:21:06.344216 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+New var:....... neighbor = <__main__.UndirectedGraphNode object at 0x11eb77a90>
+22:21:06.344589 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.344802 line        30 from _pydevd_bundle.pydevd_comm import CMD_SET_BREAK, CMD_SET_NEXT_STATEMENT, CMD_STEP_INTO, CMD_STEP_OVER, \
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x11eb9b5c0>}
+22:21:06.345110 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.345383 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+Modified var:.. finished = {1}
+22:21:06.345798 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.345981 line        34     set_global_debugger, WriterThread, pydevd_log, \
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11eb77a90>]
+22:21:06.346376 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11eb77cf8>
+22:21:06.346663 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.346834 line        30 from _pydevd_bundle.pydevd_comm import CMD_SET_BREAK, CMD_SET_NEXT_STATEMENT, CMD_STEP_INTO, CMD_STEP_OVER, \
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x11eb9b4e0>}
+22:21:06.347117 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.347459 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:06.347665 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.347855 line        34     set_global_debugger, WriterThread, pydevd_log, \
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11eb7...ain__.UndirectedGraphNode object at 0x11eb77cf8>]
+22:21:06.348196 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+22:21:06.348353 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:06.348505 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11eb77cf8>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x11eb77a90>
+22:21:06.349024 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:06.349332 line        26 from _pydevd_bundle import pydevd_utils
+22:21:06.349510 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11eb777f0>
+22:21:06.349841 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.350115 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.350299 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+Modified var:.. finished = {1, 2}
+22:21:06.350630 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.351015 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11eb77cf8>
+22:21:06.351308 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.351474 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.351631 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:06.351810 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.351965 line        34     set_global_debugger, WriterThread, pydevd_log, \
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11eb7...ain__.UndirectedGraphNode object at 0x11eb77cf8>]
+22:21:06.352386 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+22:21:06.352555 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:06.352716 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11eb77cf8>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x11eb77cf8>
+22:21:06.353349 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:06.353544 line        26 from _pydevd_bundle import pydevd_utils
+22:21:06.353719 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11eb77a90>
+22:21:06.353995 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.354160 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.354326 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+Modified var:.. finished = {1, 2, 4}
+22:21:06.354577 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.354730 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11eb777f0>
+22:21:06.354977 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.355224 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.355385 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:06.355563 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.355715 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+22:21:06.355992 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:06.356212 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = []
+22:21:06.356479 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:06.356815 line        26 from _pydevd_bundle import pydevd_utils
+22:21:06.357004 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11eb77a90>
+22:21:06.357280 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.357537 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.357700 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:06.357903 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.358075 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11eb777f0>
+22:21:06.358320 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:06.358602 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:06.358780 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:06.358988 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:06.359172 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+22:21:06.359349 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:06.359501 line        36     InternalSendCurrExceptionTraceProceeded, CommunicationRole
+22:21:06.359668 return      36     InternalSendCurrExceptionTraceProceeded, CommunicationRole
+Return value:.. <__main__.UndirectedGraphNode object at 0x11eb8dbe0>
+Starting var:.. node = <__main__.UndirectedGraphNode object at 0x11b4437f0>
+22:21:39.642950 call        14 
+22:21:39.648586 line        18 from _pydev_bundle import fix_getpass
+22:21:39.648847 line        20 from _pydev_bundle._pydev_filesystem_encoding import getfilesystemencoding
+New var:....... to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11b4437f0>]
+22:21:39.649419 line        21 from _pydev_bundle.pydev_is_thread_alive import is_thread_alive
+New var:....... clone = {}
+22:21:39.649820 line        22 from _pydev_imps._pydev_saved_modules import threading
+New var:....... finished = set()
+22:21:39.650210 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:39.650535 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = []
+New var:....... current_node = <__main__.UndirectedGraphNode object at 0x11b4437f0>
+22:21:39.651198 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:39.651404 line        26 from _pydevd_bundle import pydevd_utils
+22:21:39.651587 line        27 from _pydevd_bundle import pydevd_vars
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11b45fbe0>}
+22:21:39.651915 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+New var:....... neighbor = <__main__.UndirectedGraphNode object at 0x11b443a90>
+22:21:39.652287 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:39.652501 line        30 from _pydevd_bundle.pydevd_comm import CMD_SET_BREAK, CMD_SET_NEXT_STATEMENT, CMD_STEP_INTO, CMD_STEP_OVER, \
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x11b4705c0>}
+22:21:39.652809 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:39.653245 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+Modified var:.. finished = {1}
+22:21:39.653646 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:39.653832 line        34     set_global_debugger, WriterThread, pydevd_log, \
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11b443a90>]
+22:21:39.654112 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11b443cf8>
+22:21:39.654609 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:39.654800 line        30 from _pydevd_bundle.pydevd_comm import CMD_SET_BREAK, CMD_SET_NEXT_STATEMENT, CMD_STEP_INTO, CMD_STEP_OVER, \
+Modified var:.. clone = {1: <__main__.UndirectedGraphNode object at 0x11...ain__.UndirectedGraphNode object at 0x11b4704e0>}
+22:21:39.655097 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:39.655411 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:39.655723 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:39.655909 line        34     set_global_debugger, WriterThread, pydevd_log, \
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11b44...ain__.UndirectedGraphNode object at 0x11b443cf8>]
+22:21:39.656201 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+22:21:39.656509 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:39.656717 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11b443cf8>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x11b443a90>
+22:21:39.657262 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:39.657481 line        26 from _pydevd_bundle import pydevd_utils
+22:21:39.657669 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11b4437f0>
+22:21:39.658000 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:39.658228 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:39.658465 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+Modified var:.. finished = {1, 2}
+22:21:39.658729 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:39.659034 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11b443cf8>
+22:21:39.659342 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:39.659501 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:39.659672 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:39.659819 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:39.659982 line        34     set_global_debugger, WriterThread, pydevd_log, \
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11b44...ain__.UndirectedGraphNode object at 0x11b443cf8>]
+22:21:39.660244 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+22:21:39.660395 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:39.660538 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = [<__main__.UndirectedGraphNode object at 0x11b443cf8>]
+Modified var:.. current_node = <__main__.UndirectedGraphNode object at 0x11b443cf8>
+22:21:39.661050 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:39.661336 line        26 from _pydevd_bundle import pydevd_utils
+22:21:39.661491 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11b443a90>
+22:21:39.661747 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:39.662092 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:39.662264 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+Modified var:.. finished = {1, 2, 4}
+22:21:39.662514 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:39.662773 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+Modified var:.. neighbor = <__main__.UndirectedGraphNode object at 0x11b4437f0>
+22:21:39.663075 line        29 from _pydevd_bundle.pydevd_breakpoints import ExceptionBreakpoint, update_exception_hook
+22:21:39.663223 line        31     CMD_STEP_RETURN, CMD_STEP_INTO_MY_CODE, CMD_THREAD_SUSPEND, CMD_RUN_TO_LINE, \
+22:21:39.663367 line        32     CMD_ADD_EXCEPTION_BREAK, CMD_SMART_STEP_INTO, InternalConsoleExec, NetCommandFactory, \
+22:21:39.663559 line        33     PyDBDaemonThread, _queue, ReaderThread, GetGlobalDebugger, get_global_debugger, \
+22:21:39.663701 line        28 from _pydevd_bundle.pydevd_additional_thread_info import PyDBAdditionalThreadInfo
+22:21:39.663895 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:39.664184 line        24 from _pydev_imps._pydev_saved_modules import thread
+Modified var:.. to_be_visited_queue = []
+22:21:39.664556 line        25 from _pydevd_bundle import pydevd_io, pydevd_vm_type, pydevd_tracing
+22:21:39.664855 line        23 from _pydev_imps._pydev_saved_modules import time
+22:21:39.665007 line        36     InternalSendCurrExceptionTraceProceeded, CommunicationRole
+22:21:39.665162 return      36     InternalSendCurrExceptionTraceProceeded, CommunicationRole
+Return value:.. <__main__.UndirectedGraphNode object at 0x11b45fbe0>
