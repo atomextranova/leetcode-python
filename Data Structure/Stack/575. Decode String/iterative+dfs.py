@@ -25,7 +25,8 @@ class Solution:
         while start_index < length:
             cur_char = s[start_index]
 
-            # sub problem: find the repeat pattern
+            # sub problem: find the repeat pattern and
+            # continue scanning the rest
             if cur_char == "[":
                 repeat_pattern, start_index = self.dfs_helper(s,
                                                               start_index + 1,
@@ -38,11 +39,13 @@ class Solution:
             if cur_char == "]":
                 return cur_string, start_index + 1
 
+            # Count the repeat factor for repeating pattern
             if cur_char.isdigit():
                 cur_num = cur_num * 10 + int(cur_char)
                 start_index += 1
                 continue
 
+            # Push char to current string normally
             cur_string += cur_char
             start_index += 1
 

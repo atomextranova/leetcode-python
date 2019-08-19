@@ -8,6 +8,7 @@ class Solution:
     # nested pattern
     # s = ""
 
+    # O(n)
     def expressionExpand(self, s):
         # write your code here
         if not s:
