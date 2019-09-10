@@ -1,34 +1,26 @@
-"""
-Definition of Interval.
-class Interval(object):
-    def __init__(self, start, end):
-        self.start = start
-        self.end = end
-"""
-
-
 class Solution:
-    """
-    @param intervals: an array of meeting time intervals
-    @return: the minimum number of conference rooms required
-    """
 
-    def minMeetingRooms(self, intervals):
-        # Write your code here
-        if not intervals:
-            return 0
+    def minMeetingRooms(self, intervals: List[List[int]]) -> int:
+        schedule = []
+        for time in intervals:
+            schedule.append((time[0], 1))
+            schedule.append((time[1], -1))
 
-        time = []
-        for interval in intervals:
-            time.append((interval.start, 1))
-            time.append((interval.end, -1))
-
-        time.sort(key=lambda x: (x[0], x[1]))
+        schedule.sort(key=lambda x: x[0])
 
         cur_room = 0
         max_room = 0
-        for _, value in time:
-            cur_room += value
-            max_room = max(max_room, cur_room)
+
+        i = 0
+        while i < len(schedule):
+            event = schedule[i]
+            cur_room += event[1]
+            i += 1
+            # Consider the final result for multiple come/leave happening at
+            # the same time
+            while i < len(schedule) and schedule[i][0] == event[0]:
+                cur_room += schedule[i][1]
+                i += 1
+            max_room = max(cur_room, max_room)
 
         return max_room
