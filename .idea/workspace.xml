@@ -1,8 +1,299 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f5f8f5-5dfa-49ba-8d85-247650986ba7" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="51f5f8f5-5dfa-49ba-8d85-247650986ba7" name="Default Changelist" comment="more">
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Longest Palindromic Substring/2_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Most Common Word/match.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Most Common Word/regex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Movies On The Flight (Find Pair With Given Sum)/sorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Path With Maximum Score/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Substrings of size K with K distinct chars/Sliding Window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Substrings with exactly K distinct chars/better_C#.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Intern/Substrings with exactly K distinct chars/brute-force.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Log Sorting/quick_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Min Cost to Repair Edges/Prim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Optimal_Utilization_Lintcode/2_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Optimal_Utilization_Lintcode/brute_force.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Partition Labels/Greedy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Prison Cells After N Days/simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Shortest distance between two nodes/BST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Unsure/Subtree with maximum average/DFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Video Interview/Concatenated Words/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon OA/Video Interview/Concatenated Words/trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/BFS/Course Schedule/topological_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/BFS/Number of Distinct Islands/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Binary Search/Search a 2D Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/BinaryTree/Binary Tree Maximum Path Sum/divide_conquer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/BinaryTree/Symmetric Binary Tree/recursive.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DFS/Concatenated Words/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DFS/Concatenated Words/trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DFS/N-Queen II/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DFS/Restore IP Address/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/115. Unique Paths II/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/Longest Valid Parentheses/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/Trapping Rain Water/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/Trapping Rain Water/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/Trapping Rain Water/two_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/Word Break/DP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/Word Break/dfs+memo_TLE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/Word Break/dfs+memo_passed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/wildcard_matching/dfs_memorization.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/DP/wildcard_matching/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Data Structure/132 Pattern/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Data Structure/Copy List with Random Pointer/dict_and_traverse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Data Structure/LRU Cache/LRU cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Data Structure/LRU Cache/single_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/String/Group Anagram/Dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/String/Longest Repeating Character Replacement/sliding window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Unique/Happy Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Amazon/Unique/Prime Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Binary Tree/Minimum Cost Tree From Leaf Values/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Bit/UTF-8 Validation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/DFS/Android Unlock Pattern/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/DP/Interleaving String/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/DP/Interleaving String/Interleaving String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/DP/Knight Probability in Chessboard/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/DP/Knight Probability in Chessboard/DP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Data Structure/HashMap/657. Insert Delete GetRandom O(1)/hashmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Data Structure/HashMap/Insert Delete GetRandom O(1) - Duplicates allowed/HashMap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Stack/Daily Temperature.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Stack/NestedListIterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Unique/Find Pivot Index.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Unique/Integer Break.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Apple/Unique/Multiply String.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Didi OA/Fair Index/prefix_sum_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Didi OA/Graph Is Circle/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Build Post Office II/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Map Jump/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Maximum Connected Area/bfs_memory_exceeded.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Minimum Steps/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Modern Ludo I/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Number Of Island/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Number of Big Islands/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/The Minimum Distance/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Word Ladder/BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Word Ladder/Bidirection BFS.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Word Ladder/Bidirectional BFS 2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Lake Escape/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Lake Escape/bfs_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Second Diameter/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Shortest Path Visiting All Nodes/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Sliding Puzzle/bfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary Search/Search a 2D Matrix II/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary Search/Search in Rotated Sorted Array/binary_search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary Search/二分答案/Copy Books II/binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary Search/二分答案/Wood Cut/binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Binary Tree Zigzag Level Order Traversal/recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Closest Binary Search Tree Value II/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Heir Tree/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/House Robber III/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Predecessor in BST/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Predecessor in BST/dfs_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Predecessor in BST/while.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Predecessor in BST/while_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Successor in BST/divide_conquer_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Successor in BST/traversal_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Subtree of Another Tree/recursion.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Merge Intervals/sort_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Move Zeros/unique.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Prison Cells After N Days/simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Factorization/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Generate Parentheses/dfs_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Num Ways/dp_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Robot Room Cleaner/dfs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Word Break II/dfs_memo_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Word Break III/dfs+memo_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Word Break/DP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Word Break/dfs+memo_TLE.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Word Break/dfs+memo_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/DFS/Word Break/dfs+memo_passed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/Kth Smallest Element in a Sorted Matrix/heap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/LinkedList/Copy List with Random Pointer/dict_and_traverse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/LinkedList/Reverse Linked List/iteratIon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/Stack/Valid Parentheses/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/Trie/Concatenated Words/trie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/Union Find/Number of Islands II/union_find.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Course Schedule IV/dfs+memo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Decode Way II/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Minimum Adjustment Cost/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Minimum Adjustment Cost/dp_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Num Ways/dp_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Paint House II/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Rat Jump/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/区间型/stone game/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/Efficient Job Processing/dp_reverse_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/Paint House/dp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/Partition Equal Subset Sum/dp_reverse_dynamic_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/backpack VII/dp_reverse_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/backpack VII/dp_reverse_array_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/backpack VIII/dp_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/backpack/dp_dynamic_array_reverse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/不完全背包（负循环）/backpack/dp_optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/完全背包（正循环）/Backpack III/dp_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/完全背包（正循环）/Backpack III/dp_rolling_arry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/完全背包（正循环）/Backpack IV/dp_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/背包问题/完全背包（正循环）/backpack V/dp_array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Prefix Sum/Matrix Restoration/prefix_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/Prefix Sum/Shortest Subarray with Sum at Least K/prefix_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/String/Minimum Remove to Make Valid Parentheses/stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Gene Similarity/two_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Minimum Size Subarray Sum/two_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Grumpy Bookstore Owner/sliding window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Maximum Average Subarray II/sliding_window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Minimum Window Substring/Sliding Window Template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Pen Box/prefix_sum+hashmap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Pen Box/two_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Pick Apples/sliding_windows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Subarray Equals k 2/optimized.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Subarray Equals k 2/sliding window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/背向双指针/Longest Consecutive Sequence/hashmap+two_pointer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/计数双指针/The Kth Largest Sum/two_pointer_binary_search_answer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template/bfs_general.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template/binary_serach.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/To Be Classified/Matrix restoration/unique.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/BinaryTree/Binary Tree Level Order Traversal/bfs_1_queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/Graph/Word Ladder/level_order_traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BFS/Matrix/Number Of Island/bfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/50. Pow(x, n)/power_divide_conque.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/50. Pow(x, n)/power_fast_iterative.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/Find K Closest Elements/Find K Closest Elements.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/Find Minimum in Rotated Sorted Array/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/Find Peak Element/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/Last Position of Target/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/Maximum Number in Mountain Sequence/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/Search in Rotated Sorted Array/binary_search.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Binary Search/Search in a Big Sorted Array/Search in a Big Sorted Array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/901. Closest Binary Search Tree Value II/solution1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/901. Closest Binary Search Tree Value II/solution2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/BST_Iterator/solution1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/Kth smallest element/divide_conquer_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/Kth smallest element/traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/474. Lowest Common Ancestor II/divide_and_conquer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/474. Lowest Common Ancestor II/traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/88. Lowest Common Ancestor of a Binary Tree/LCA_divide_and_conquer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/88. Lowest Common Ancestor of a Binary Tree/traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/900. Closest Binary Search Tree Value/traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/93. Balanced Binary Tree/divide_conquer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/95. Validate Binary Search Tree/divide_conquer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/95. Validate Binary Search Tree/traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/BinaryTreePath/divide_conquer_binary_tree_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/BinaryTreePath/traversal_binary_tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/Lowest Common Ancestor III/divide_and_conque.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/MinimumSubtree/divide_and_conque.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Maximum_Minimum_Average_Sum_Paths/MinimumSubtree/traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Modify Tree/Flatten Binary Tree to Linked List/divide_conquer_no_global.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/Modify Tree/Flatten Binary Tree to Linked List/traversal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/HashMap/657. Insert Delete GetRandom O(1)/hashmap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/Queue/Implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/Queue/circular.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/Queue/two_stack_implementation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/Stack/494. Implement Stack by Two Queues/deque.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/544. Top k Largest Numbers/heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/612. K Closest Points/heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/Heapify/siftup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/Heapify/siuft_down.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/Merge K sorted array/divide_conquer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/Merge K sorted array/heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/Merge K sorted array/merge_2_by_2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Structure/heap/Merge K sorted lists/heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/107. Word Break/dfs_memorization_stack_overflow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/107. Word Break/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dfs_memorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_bottom_up.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_top_down.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_top_down_optimized.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/110. Minimum Path Sum/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/111. Climbing Stairs/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/114. Unique Paths/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/115. Unique Paths II/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/154. Regular Expression Matching/dfs+memorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/154. Regular Expression Matching/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/582. Word Break II/dfs_memorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/603. Largest Divisible Subset/largest_divisible_set.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/bfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/dp_optimized.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/683. Word Break III/dp_array.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_nlogn_best_solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_print_best_solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/wildcard_matching/dfs_memorization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dymamic Programming/wildcard_matching/dp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/BFS/663. Walls and Gates/bfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/663. Walls and Gates/bfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/BFS/Alien Dict/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Alien Dict/BFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/BFS/Is Graph Bipartite/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/BFS/Normal/Is Graph Bipartite/BFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/BFS/Number Of Island/BFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon OA/Intern/Path With Maximum Score/dp_reference.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary Search/Binary Tree Maximum Path Sum/divide_conquer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary Search/Find Minimum in Rotated Sorted Array/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary Search/Find Minimum in Rotated Sorted Array/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary Search/Find Peak Element/binary_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary Search/Find Peak Element/binary_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Binary Tree Right Side View/divide_conque.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Binary Tree Right Side View/divide_conque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Binary Tree Vertical Order Traversal/bfs_level_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Binary Tree Vertical Order Traversal/bfs_level_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Convert BST to Greater Tree/divide_conquer.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Convert BST to Greater Tree/divide_conquer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Convert Binary Search Tree to Sorted Doubly Linked List/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Convert Binary Search Tree to Sorted Doubly Linked List/recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Find Leaves of Binary Tree/divide_conquer.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Find Leaves of Binary Tree/divide_conquer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Successor in BST/divide_conquer.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Inorder Successor in BST/divide_conquer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Trim a Binary Search Tree/divide_conquer.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Trim a Binary Search Tree/divide_conquer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Validate Binary Search Tree/recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Binary_Tree/Validate Binary Search Tree/recursion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Add Two Numbers II/no_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Add Two Numbers II/no_stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Add Two Numbers II/trial.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Add Two Numbers II/trial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Basic Calculator 2/iteration.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Basic Calculator 2/iteration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Diagonal Traverse/deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Diagonal Traverse/deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Diagonal Traverse/traverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Diagonal Traverse/traverse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/First Missing Positive/two_pointer.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/First Missing Positive/two_pointer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Reorder Data in Log Files/sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Reorder Data in Log Files/sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Spiral Matrix II/Spiral Matrix II.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Spiral Matrix II/Spiral Matrix II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/DFS/Generate Parentheses/DFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/DFS/Generate Parentheses/DFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/DFS/Subsets/dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/DFS/Subsets/dfs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/K Closest Points to Origin/heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/K Closest Points to Origin/heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/Merge Two Sorted Lists/scan.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/Merge Two Sorted Lists/scan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/Merge k Sorted Lists/heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/Merge k Sorted Lists/heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/LRU cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/LRU cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/single_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/single_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Data Structures/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Cherry Pickup/dfs_memorization.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Cherry Pickup/dfs_memorization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Longest Common Substring/dp.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Longest Common Substring/dp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Longest Common Substring/dp_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Longest Common Substring/dp_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Sliding Windows/Longest Substring Without Repeating Characters/two_pointer.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Longest Substring Without Repeating Characters/two_pointer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Sliding Windows/Longest Substring with At Most K Distinct Characters/sliding_windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Longest Substring with At Most K Distinct Characters/sliding_windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Sliding Windows/Minimum Window Substring/Sliding Windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Minimum Window Substring/Sliding Windows.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/Sliding Windows/Sliding Window Maximum/DP.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Sliding Window Maximum/DP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/String/Anagram/record.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/String/Anagram/record.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/String/Valid Word Abbreviation/scan_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/String/Valid Word Abbreviation/scan_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/two_pointers/Longest Palindromic Substring/recursive_two_pointers.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/背向双指针/Longest Palindromic Substring/recursive_two_pointers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/two_pointers/Trapping Rain Water/dp.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/Trapping Rain Water/dp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/two_pointers/Trapping Rain Water/two_pointer.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/Trapping Rain Water/two_pointer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/High_Frequency/two_pointers/Valid Palindrome 2/two pointers.py" beforeDir="false" afterPath="$PROJECT_DIR$/High_Frequency/two_pointers/背向双指针/Valid Palindrome 2/two pointers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implicit DFS/16. Permutations II/dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implicit DFS/33. N-Queens/dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implicit DFS/425. Letter Combinations of a Phone Number/dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Implicit DFS/680. Split String/dfs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/bfs_level_order.py" beforeDir="false" afterPath="$PROJECT_DIR$/Template/bfs_level_order.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/segment_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Template/segment_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/trie.py" beforeDir="false" afterPath="$PROJECT_DIR$/Template/trie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/union_find.py" beforeDir="false" afterPath="$PROJECT_DIR$/Template/union_find.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template/wrapper_heap_priority_queue_cmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Template/wrapper_heap_priority_queue_cmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/fast_slow/228. Middle of Linked List/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/fast_slow/521. Remove Duplicate Numbers in Array/hash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/fast_slow/521. Remove Duplicate Numbers in Array/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/fast_slow/remove_zeros/better.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/fast_slow/remove_zeros/simple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/quick_select/143. Sort Colors II/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/quick_select/31. Partition Array/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/quick_select/5. Kth Largest Element/5. Kth Largest Element.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/相向/Two Sum/533. Two Sum - Closest to target/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/相向/Two Sum/57. 3Sum/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/相向/Two Sum/587. Two Sum - Unique pairs/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/相向/Two Sum/607. Two Sum III - Data structure design/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/相向/Two Sum/608. Two Sum II - Input array is sorted/same direction.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Two Pointers/相向/Two Sum/Triangle Count/two_pointers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doubly_linked_list.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,92 +313,6 @@
     <expand />
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structure/Trie/473. Add and Search Word - Data structure design/trie.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structure/heap/364. Trapping Rain Water II/Heap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="33" selection-end-line="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structure/Stack/12. Min Stack/stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structure/Stack/575. Decode String/stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Implicit DFS/16. Permutations II/dfs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data Structure/Stack/575. Decode String/iterative+dfs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structure/Stack/575. Decode String/dfs.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Template/quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structure/Union Find/Accounts Merge/union_find_2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
-              <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Structure/Union Find/Number of Islands/Union_find.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -115,187 +320,43 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/doubly_linked_list.py" />
-        <option value="$PROJECT_DIR$/Data Structure/HashMap/LRU cache.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/107. Word Break/dfs+memorization.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/582. Word Break II/dfs_memorization.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/107. Word Break/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/683. Word Break III/dp_array.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/wildcard_matching/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/wildcard_matching/dfs_memorization.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/154. Regular Expression Matching/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/154. Regular Expression Matching/dfs+memorization.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_bottom_up.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_top_down.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dfs_memorization.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/Unique Path/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/115. Unique Paths II/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/111. Climbing Stairs/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/110. Minimum Path Sum/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_top_down_optimized.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/dp_optimized.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/bfs.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/largest_divisible_set.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/binary_search.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/Russian Doll Envelopes/binary_search.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_print_best_solution.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_nlogn.py" />
-        <option value="$PROJECT_DIR$/Two Pointers/fast_slow/406. Minimum Size Subarray Sum/fast_slow.py" />
-        <option value="$PROJECT_DIR$/Two Pointers/fast_slow/384. Longest Substring Without Repeating Characters/fast_slow.py" />
-        <option value="$PROJECT_DIR$/Two Pointers/fast_slow/386. Longest Substring with At Most K Distinct Characters/fast_slow.py" />
-        <option value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_nlogn_best_solution.py" />
-        <option value="$PROJECT_DIR$/Two Pointers/quick_select/5. Kth Largest Element/5. Kth Largest Element.py" />
-        <option value="$PROJECT_DIR$/Two Pointers/quick_select/461. Kth Smallest Numbers in Unsorted Array/461. Kth Smallest Numbers in Unsorted Array.py" />
-        <option value="$PROJECT_DIR$/Template.py" />
-        <option value="$PROJECT_DIR$/Template/quick_select.py" />
-        <option value="$PROJECT_DIR$/Data Structure/heap/401. Kth Smallest Number in Sorted Matrix/heap_quick_select.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Union Find/Accounts Merge/union_find.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Union Find/Accounts Merge/union_find_2.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands/Union_find_decrease_island.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands/Union_find.py" />
-        <option value="$PROJECT_DIR$/Template/union_find.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Trie/442. Implement Trie (Prefix Tree)/tried.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Trie/442. Implement Trie (Prefix Tree)/trie.py" />
-        <option value="$PROJECT_DIR$/Template/quick_sort.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Trie/473. Add and Search Word - Data structure design/trie.py" />
-        <option value="$PROJECT_DIR$/Data Structure/heap/364. Trapping Rain Water II/Heap.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Stack/12. Min Stack/stack.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Stack/575. Decode String/stack.py" />
-        <option value="$PROJECT_DIR$/Implicit DFS/16. Permutations II/dfs.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Stack/575. Decode String/iterative+dfs.py" />
-        <option value="$PROJECT_DIR$/Data Structure/Stack/575. Decode String/dfs.py" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1297" />
-    <option name="height" value="1398" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="heap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-              <item name="12. Min Stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-              <item name="575. Decode String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Trie" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Structure" type="462c0819:PsiDirectoryNode" />
-              <item name="Trie" type="462c0819:PsiDirectoryNode" />
-              <item name="473. Add and Search Word - Data structure design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Dymamic Programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Implicit DFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Implicit DFS" type="462c0819:PsiDirectoryNode" />
-              <item name="16. Permutations II" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Template" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1Q6HXyaogcSfiRBjl9XXU3PWZrL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Template" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/High_Frequency/DFS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\Template" />
-      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\Dymamic Programming\109. Triangle" />
-      <recent name="$PROJECT_DIR$/BFS/Matrix/Knight Shortest Path" />
+      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\High_Frequency\DFS" />
+      <recent name="$PROJECT_DIR$/Amazon/DP" />
+      <recent name="$PROJECT_DIR$/Amazon/Data Structure" />
+      <recent name="$PROJECT_DIR$/Amazon/BinaryTree" />
+      <recent name="$PROJECT_DIR$/Amazon/DFS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\Two Pointers\fast_slow" />
-      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\Dymamic Programming\603. Largest Divisible Subset" />
-      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\Dymamic Programming" />
-      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\Data Structure\Stack" />
-      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\Data Structure" />
+      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\High_Frequency\Dynamic Programming\区间型" />
+      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\High_Frequency\BFS\Normal\Is Graph Bipartite" />
+      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\High_Frequency\BFS\Normal" />
+      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\High_Frequency\BFS\Special Ones" />
+      <recent name="C:\Users\nones\iCloudDrive\Courses\九章\python\High_Frequency\Dynamic Programming\背包问题\不完全背包（负循环）" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.trie">
-    <configuration name="Union_find (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bfs (1)">
+    <configuration name="BFS (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,12 +364,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/High_Frequency/BFS/Word Ladder" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands/Union_find.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/High_Frequency/BFS/Word Ladder/BFS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,7 +378,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Union_find" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bfs (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -325,12 +386,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Didi OA/Graph Is Circle" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\nones\iCloudDrive\Courses\九章\python\Data Structure\Union Find\Number of Islands\Union_find_decrease_island.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Didi OA/Graph Is Circle/bfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +400,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dfs_memorization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bfs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -347,12 +408,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dymamic Programming/109. Triangle" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/High_Frequency/BFS/Lake Escape" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dymamic Programming/109. Triangle/dfs_memorization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/High_Frequency/BFS/Lake Escape/bfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,7 +422,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dp (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -369,12 +430,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Minimum Adjustment Cost" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/dp.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Minimum Adjustment Cost/dp.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,7 +444,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dp_nlogn_best_solution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="two_pointer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -391,34 +452,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Gene Similarity" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_nlogn_best_solution.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="trie" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Structure/Trie/473. Add and Search Word - Data structure design" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Structure/Trie/473. Add and Search Word - Data structure design/trie.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Gene Similarity/two_pointer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -429,11 +468,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.trie" />
-        <item itemvalue="Python.Union_find (1)" />
-        <item itemvalue="Python.Union_find" />
-        <item itemvalue="Python.dp_nlogn_best_solution" />
-        <item itemvalue="Python.dp (2)" />
+        <item itemvalue="Python.bfs (1)" />
+        <item itemvalue="Python.bfs" />
+        <item itemvalue="Python.two_pointer" />
+        <item itemvalue="Python.dp" />
+        <item itemvalue="Python.BFS (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -468,17 +507,161 @@
       <workItem from="1565698021902" duration="3000" />
       <workItem from="1565700534944" duration="2830000" />
       <workItem from="1565730178479" duration="33120000" />
-      <workItem from="1566047620715" duration="1370000" />
+      <workItem from="1566047620715" duration="8259000" />
+      <workItem from="1566175808195" duration="1657000" />
+      <workItem from="1566220972830" duration="3432000" />
+      <workItem from="1566264557033" duration="137000" />
+      <workItem from="1566313974239" duration="635000" />
+      <workItem from="1566334842323" duration="626000" />
+      <workItem from="1566342264854" duration="3509000" />
+      <workItem from="1566398559625" duration="1232000" />
+      <workItem from="1566411632244" duration="1203000" />
+      <workItem from="1566431825733" duration="625000" />
+      <workItem from="1566507042810" duration="3000" />
+      <workItem from="1566852843222" duration="2290000" />
+      <workItem from="1566863071675" duration="2056000" />
+      <workItem from="1566911843217" duration="1100000" />
+      <workItem from="1566917064467" duration="424000" />
+      <workItem from="1566926853041" duration="83000" />
+      <workItem from="1566931359074" duration="472000" />
+      <workItem from="1566953922530" duration="3085000" />
+      <workItem from="1567002798218" duration="2288000" />
+      <workItem from="1567038136128" duration="7000" />
+      <workItem from="1567038233925" duration="374000" />
+      <workItem from="1567084174841" duration="473000" />
+      <workItem from="1567089194031" duration="1898000" />
+      <workItem from="1567099661385" duration="535000" />
+      <workItem from="1567106793133" duration="185000" />
+      <workItem from="1567126772316" duration="92000" />
+      <workItem from="1567205560460" duration="5728000" />
+      <workItem from="1567345696442" duration="30000" />
+      <workItem from="1567345793871" duration="7277000" />
+      <workItem from="1567460502662" duration="3860000" />
+      <workItem from="1567523234014" duration="374000" />
+      <workItem from="1567526671294" duration="296000" />
+      <workItem from="1567530878559" duration="742000" />
+      <workItem from="1567544726065" duration="217000" />
+      <workItem from="1567553520354" duration="1044000" />
+      <workItem from="1567630337554" duration="603000" />
+      <workItem from="1567687509840" duration="218000" />
+      <workItem from="1567699212816" duration="391000" />
+      <workItem from="1567704273151" duration="7000" />
+      <workItem from="1567718404641" duration="919000" />
+      <workItem from="1567786392962" duration="73000" />
+      <workItem from="1567786703845" duration="2014000" />
+      <workItem from="1567910561978" duration="224000" />
+      <workItem from="1567910815727" duration="29000" />
+      <workItem from="1567910971929" duration="17000" />
+      <workItem from="1567911095428" duration="519000" />
+      <workItem from="1568082496012" duration="739000" />
+      <workItem from="1568136288035" duration="876000" />
+      <workItem from="1568168348276" duration="645000" />
+      <workItem from="1568169193694" duration="1088000" />
+      <workItem from="1568212637765" duration="599000" />
+      <workItem from="1568224542473" duration="871000" />
+      <workItem from="1568398843506" duration="2753000" />
+      <workItem from="1568480022798" duration="3495000" />
+      <workItem from="1568511160836" duration="2859000" />
+      <workItem from="1568730743986" duration="813000" />
+      <workItem from="1568741183957" duration="2716000" />
+      <workItem from="1568774705758" duration="2151000" />
+      <workItem from="1568826187928" duration="317000" />
+      <workItem from="1568833245953" duration="1639000" />
+      <workItem from="1568842462770" duration="650000" />
+      <workItem from="1568850628498" duration="1195000" />
+      <workItem from="1568914355341" duration="3059000" />
+      <workItem from="1569204592295" duration="618000" />
+      <workItem from="1569344605954" duration="211000" />
+      <workItem from="1569346535218" duration="2276000" />
+      <workItem from="1569549592125" duration="5846000" />
+      <workItem from="1570163724853" duration="966000" />
+      <workItem from="1570206922222" duration="678000" />
+      <workItem from="1570320885927" duration="7280000" />
+      <workItem from="1570635303183" duration="644000" />
+      <workItem from="1570662859847" duration="40000" />
+      <workItem from="1571233417330" duration="838000" />
+      <workItem from="1571252301043" duration="601000" />
+      <workItem from="1571325537324" duration="26000" />
+      <workItem from="1571341987027" duration="2083000" />
+      <workItem from="1571924551611" duration="2219000" />
+      <workItem from="1572190620103" duration="8128000" />
+      <workItem from="1572285139577" duration="2525000" />
+      <workItem from="1572388999650" duration="9362000" />
+      <workItem from="1572900400900" duration="393000" />
+      <workItem from="1572995862419" duration="620000" />
+      <workItem from="1573011786341" duration="2043000" />
+      <workItem from="1573155125313" duration="6954000" />
+      <workItem from="1573350259581" duration="61000" />
+      <workItem from="1573420475001" duration="2227000" />
+      <workItem from="1573517653305" duration="968000" />
+      <workItem from="1574173419817" duration="1406000" />
+      <workItem from="1574192583957" duration="2357000" />
+      <workItem from="1574266032595" duration="2931000" />
+      <workItem from="1574353404339" duration="27000" />
+      <workItem from="1574390695907" duration="1000" />
+      <workItem from="1574531183376" duration="444000" />
+      <workItem from="1574554107874" duration="658000" />
+      <workItem from="1574626515275" duration="599000" />
+      <workItem from="1574737055514" duration="1750000" />
+      <workItem from="1574815824225" duration="1389000" />
+      <workItem from="1574975974633" duration="2308000" />
+      <workItem from="1575300841292" duration="1289000" />
+      <workItem from="1575339911377" duration="1285000" />
+      <workItem from="1579137836731" duration="493000" />
+      <workItem from="1579138375428" duration="1746000" />
+      <workItem from="1579225418323" duration="813000" />
+      <workItem from="1579264712074" duration="621000" />
+      <workItem from="1579299167615" duration="35000" />
+      <workItem from="1579299215714" duration="52000" />
+      <workItem from="1593281867936" duration="1324000" />
+      <workItem from="1593298732427" duration="598000" />
+      <workItem from="1594956761384" duration="4256000" />
+      <workItem from="1595201182657" duration="44000" />
+      <workItem from="1595455646627" duration="667000" />
+      <workItem from="1595815093246" duration="6027000" />
+      <workItem from="1596132260873" duration="59000" />
+      <workItem from="1596148103546" duration="2471000" />
+      <workItem from="1596417475569" duration="608000" />
+      <workItem from="1597437137646" duration="4081000" />
+      <workItem from="1597783720498" duration="7018000" />
+      <workItem from="1597814506218" duration="477000" />
+      <workItem from="1597899241532" duration="78973000" />
+      <workItem from="1599877822373" duration="24000" />
+      <workItem from="1599943666856" duration="4032000" />
+      <workItem from="1600391788434" duration="3816000" />
+      <workItem from="1600461346399" duration="603000" />
+      <workItem from="1600564779024" duration="118000" />
     </task>
+    <task id="LOCAL-00001" summary="more">
+      <created>1566953952054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566953952054</updated>
+    </task>
+    <task id="LOCAL-00002" summary="more">
+      <created>1568136390692</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568136390692</updated>
+    </task>
+    <task id="LOCAL-00003" summary="more">
+      <created>1568429127999</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568429127999</updated>
+    </task>
+    <task id="LOCAL-00004" summary="more">
+      <created>1568429146740</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568429146740</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_in_Knight_Shortest_Path - 2019.06.11 at 22h 41m 21s.xml">
-      <configuration name="Unittests in Knight Shortest Path" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,35 +672,106 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-6" y="0" width="1037" height="1118" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2819203" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4974464" visible="true" weight="0.32826748" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4974464" weight="0.4123607" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50255364" side_tool="true" weight="0.39918947" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32959184" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32959184" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32991803" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="more" />
+    <option name="LAST_COMMIT_MESSAGE" value="more" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="705" y="312" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597814400617">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="705" y="312" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1597814400617" />
+    <state x="235" y="170" key="CommitChangelistDialog2" timestamp="1600647009224">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="235" y="170" key="CommitChangelistDialog2/0.0.2048.1152@0.0.2048.1152" timestamp="1600647009224" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom" timestamp="1600399000753">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596153042009" />
+    <state width="2005" height="318" key="GridCell.Tab.0.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1599261339004" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1600399000753" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center" timestamp="1600399000751">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596153042008" />
+    <state width="2005" height="318" key="GridCell.Tab.0.center/0.0.2048.1152@0.0.2048.1152" timestamp="1599261339004" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1600399000751" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left" timestamp="1600399000750">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596153042008" />
+    <state width="2005" height="318" key="GridCell.Tab.0.left/0.0.2048.1152@0.0.2048.1152" timestamp="1599261339004" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1600399000750" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right" timestamp="1600399000752">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596153042009" />
+    <state width="2005" height="318" key="GridCell.Tab.0.right/0.0.2048.1152@0.0.2048.1152" timestamp="1599261339004" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1600399000752" />
+    <state width="981" height="392" key="GridCell.Tab.1.bottom" timestamp="1599182587645">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1596153025657" />
+    <state width="981" height="392" key="GridCell.Tab.1.bottom/0.0.2048.1152@0.0.2048.1152" timestamp="1599182587645" />
+    <state width="981" height="392" key="GridCell.Tab.1.center" timestamp="1599182587644">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1596153025657" />
+    <state width="981" height="392" key="GridCell.Tab.1.center/0.0.2048.1152@0.0.2048.1152" timestamp="1599182587644" />
+    <state width="981" height="392" key="GridCell.Tab.1.left" timestamp="1599182587644">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1596153025657" />
+    <state width="981" height="392" key="GridCell.Tab.1.left/0.0.2048.1152@0.0.2048.1152" timestamp="1599182587644" />
+    <state width="981" height="392" key="GridCell.Tab.1.right" timestamp="1599182587644">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="2005" height="382" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1596153025657" />
+    <state width="981" height="392" key="GridCell.Tab.1.right/0.0.2048.1152@0.0.2048.1152" timestamp="1599182587644" />
+    <state x="630" y="392" key="com.intellij.ide.util.TipDialog" timestamp="1600646966267">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1599877821345" />
+    <state x="630" y="378" key="com.intellij.ide.util.TipDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1596417475328" />
+    <state x="630" y="392" key="com.intellij.ide.util.TipDialog/0.0.2048.1152@0.0.2048.1152" timestamp="1600646966267" />
+    <state x="788" y="490" key="com.intellij.ide.util.TipDialog/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1600391793621" />
+    <state x="859" y="315" width="840" height="879" key="search.everywhere.popup" timestamp="1600399249277">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1595460204506" />
+    <state x="687" y="252" width="672" height="703" key="search.everywhere.popup/0.0.2048.1152@0.0.2048.1152" timestamp="1599179687523" />
+    <state x="859" y="315" width="840" height="879" key="search.everywhere.popup/2560.0.1680.1050/0.0.2560.1440@0.0.2560.1440" timestamp="1600399249277" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -528,11 +782,6 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BFS/Matrix/Number Of Island/bfs.py</url>
-          <line>30</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/BFS/BinaryTree/Deserialize binary tree/deserialize.py</url>
           <line>85</line>
           <option name="timeStamp" value="19" />
@@ -541,21 +790,6 @@
           <url>file://$PROJECT_DIR$/BFS/Graph/Clone Graph/clever.py</url>
           <line>48</line>
           <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BFS/Graph/Word Ladder/level_order_traversal.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BFS/Graph/Word Ladder/level_order_traversal.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BFS/Graph/Word Ladder/level_order_traversal.py</url>
-          <line>19</line>
-          <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Binary Search/Search in Rotated Sorted Array/binary_search.py</url>
@@ -578,48 +812,27 @@
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/BST_Iterator/solution1.py</url>
-          <line>67</line>
-          <option name="timeStamp" value="56" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/BST_Iterator/solution1.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/901. Closest Binary Search Tree Value II/solution1.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="58" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <condition expression="left == 1" language="Python" />
-          <url>file://$PROJECT_DIR$/Two Pointers/相向/Two Sum/57. 3Sum/two_pointers.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Implicit DFS/17. Subsets/dfs.py</url>
           <line>21</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data Structure/HashMap/LRU cache.py</url>
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/LRU cache.py</url>
           <line>118</line>
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data Structure/HashMap/LRU cache.py</url>
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/LRU cache.py</url>
           <line>117</line>
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data Structure/HashMap/LRU cache.py</url>
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/LRU cache.py</url>
           <line>68</line>
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data Structure/HashMap/LRU cache.py</url>
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/LRU cache.py</url>
           <line>104</line>
           <option name="timeStamp" value="77" />
         </line-breakpoint>
@@ -674,11 +887,6 @@
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_nlogn_best_solution.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Data Structure/Union Find/Number of Islands/Union_find_decrease_island.py</url>
           <line>47</line>
           <option name="timeStamp" value="109" />
@@ -687,6 +895,181 @@
           <url>file://$PROJECT_DIR$/Data Structure/Trie/473. Add and Search Word - Data structure design/trie.py</url>
           <line>41</line>
           <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Data Structure/Stack/max tree.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Collection of unique problems/Sparse_Matrix/matrix.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BFS/Graph/796. Open the Lock/bfs_2_direction.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/BFS/Graph/796. Open the Lock/bfs_2_direction.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Template/segment_tree.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/DFS/Remove Invalid Parenthesis/dfs.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/Heap/Task Scheduler/heap.py</url>
+          <line>36</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/two_pointers/背向双指针/Valid Palindrome 2/two pointers.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/DFS/Expression Add Operators/dfs.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/two_pointers/背向双指针/Longest Palindromic Substring/recursive_two_pointers.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Normal/Number Of Island/BFS.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Normal/Number Of Island/BFS.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Collection of unique problems/Spiral Matrix II/Spiral Matrix II.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/single_linked_list.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/single_linked_list.py</url>
+          <line>97</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache/single_linked_list.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Normal/Word Ladder/Bidirection BFS.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Normal/Word Ladder/Bidirection BFS.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Normal/Word Ladder/Bidirection BFS.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Data Structures/Trie/Concatenated Words/trie.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Amazon OA/Intern/Substrings of size K with K distinct chars/test.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Apple/DP/Interleaving String/Interleaving String.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Apple/Bit/UTF-8 Validation.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Apple/Bit/UTF-8 Validation.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Amazon/DP/Trapping Rain Water/dp.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Dynamic Programming/Num Ways/dp_optimized.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/Dynamic Programming/Num Ways/dp_optimized.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Sliding Windows/Subarray Equals k 2/sliding window.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Normal/Number of Big Islands/bfs.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/DFS/Word Break II/dfs_memo_optimized.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Gene Similarity/two_pointer.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Gene Similarity/two_pointer.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Lake Escape/bfs.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Lake Escape/bfs.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/High_Frequency/BFS/Special Ones/Lake Escape/bfs.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="197" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -697,454 +1080,63 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="lru.tail.prev.val" language="Python" />
-        <watch expression="lru.tail.prev.next.val" language="Python" />
-        <watch expression="lru.tail.val" language="Python" />
-        <watch expression="triangle[1][1]" language="Python" />
-        <watch expression="self.father[target]" language="Python" />
-        <watch expression="target" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python$trie.coverage" NAME="trie Coverage Results" MODIFIED="1566002416877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/Trie/473. Add and Search Word - Data structure design" />
-    <SUITE FILE_PATH="coverage/python$level_order_traversal.coverage" NAME="level_order_traversal Coverage Results" MODIFIED="1560786028633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Graph/Word Ladder" />
-    <SUITE FILE_PATH="coverage/python$divide_conquer_map.coverage" NAME="divide_conquer_map Coverage Results" MODIFIED="1562245629425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree" />
-    <SUITE FILE_PATH="coverage/python$solution.coverage" NAME="solution Coverage Results" MODIFIED="1562245520317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Be Classified/Recover Rotated Sorted Array" />
-    <SUITE FILE_PATH="coverage/python$two_pointers.coverage" NAME="two_pointers Coverage Results" MODIFIED="1564655621437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Two Pointers/相向/Two Sum/57. 3Sum" />
-    <SUITE FILE_PATH="coverage/python$binary_search__1_.coverage" NAME="binary_search (1) Coverage Results" MODIFIED="1562138643811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search/Find Peak Element" />
-    <SUITE FILE_PATH="coverage/python$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1564670226849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Implicit DFS/17. Subsets" />
-    <SUITE FILE_PATH="coverage/python$Union_find.coverage" NAME="Union_find Coverage Results" MODIFIED="1565996611911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands" />
-    <SUITE FILE_PATH="coverage/python$dfs__1_.coverage" NAME="dfs (1) Coverage Results" MODIFIED="1564670440868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Implicit DFS/153. Combination Sum II" />
-    <SUITE FILE_PATH="coverage/python$Unittests_in_Knight_Shortest_Path.coverage" NAME="Unittests in Knight Shortest Path Coverage Results" MODIFIED="1560264080997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Graph/Knight Shortest Path" />
-    <SUITE FILE_PATH="coverage/python$Union_find__1_.coverage" NAME="Union_find (1) Coverage Results" MODIFIED="1566002224265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands" />
-    <SUITE FILE_PATH="coverage/python$power_fast_iterative.coverage" NAME="power_fast_iterative Coverage Results" MODIFIED="1562078282573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search/50. Pow(x, n)" />
-    <SUITE FILE_PATH="coverage/python$dp__1_.coverage" NAME="dp (1) Coverage Results" MODIFIED="1565743423200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/115. Unique Paths II" />
-    <SUITE FILE_PATH="coverage/python$dfs_memorization.coverage" NAME="dfs_memorization Coverage Results" MODIFIED="1565694659286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/109. Triangle" />
-    <SUITE FILE_PATH="coverage/python$dp.coverage" NAME="dp Coverage Results" MODIFIED="1565660697920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/154. Regular Expression Matching" />
-    <SUITE FILE_PATH="coverage/python$solution1.coverage" NAME="solution1 Coverage Results" MODIFIED="1562764811564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/BST_Iterator" />
-    <SUITE FILE_PATH="coverage/python$LRU_cache.coverage" NAME="LRU cache Coverage Results" MODIFIED="1565551465428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/HashMap" />
-    <SUITE FILE_PATH="coverage/python$longest_palindrome.coverage" NAME="longest_palindrome Coverage Results" MODIFIED="1560264066394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python$Search_in_a_Big_Sorted_Array.coverage" NAME="Search in a Big Sorted Array Coverage Results" MODIFIED="1562070392809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search" />
-    <SUITE FILE_PATH="coverage/python$dp_top_down.coverage" NAME="dp_top_down Coverage Results" MODIFIED="1565704109306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/109. Triangle" />
-    <SUITE FILE_PATH="coverage/python$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1562072775467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search/Search in Rotated Sorted Array" />
-    <SUITE FILE_PATH="coverage/python$deserialize.coverage" NAME="deserialize Coverage Results" MODIFIED="1560780554429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/BinaryTree/Deserialize binary tree" />
+    <SUITE FILE_PATH="coverage/python$dp_reference.coverage" NAME="dp_reference Coverage Results" MODIFIED="1572390059279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon OA/Intern/Path With Maximum Score" />
     <SUITE FILE_PATH="coverage/python$course_schedule_2.coverage" NAME="course_schedule_2 Coverage Results" MODIFIED="1560692150977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Graph/Course Schedule II" />
-    <SUITE FILE_PATH="coverage/python$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1560773868613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Matrix/Number Of Island" />
+    <SUITE FILE_PATH="coverage/python$sliding_window.coverage" NAME="sliding window Coverage Results" MODIFIED="1596153021789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Sliding Windows/Subarray Equals k 2" />
+    <SUITE FILE_PATH="coverage/python$Bidirection_BFS.coverage" NAME="Bidirection BFS Coverage Results" MODIFIED="1570460420135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/BFS/Word Ladder" />
+    <SUITE FILE_PATH="coverage/python$solution1.coverage" NAME="solution1 Coverage Results" MODIFIED="1562764811564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/BST_Iterator" />
+    <SUITE FILE_PATH="coverage/python$max_tree.coverage" NAME="max tree Coverage Results" MODIFIED="1566053700633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/Stack" />
+    <SUITE FILE_PATH="coverage/python$Bidrectional_BFS.coverage" NAME="Bidrectional BFS Coverage Results" MODIFIED="1595910573659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/BFS/Shortest Path to the destination" />
+    <SUITE FILE_PATH="coverage/python$dfs.coverage" NAME="dfs Coverage Results" MODIFIED="1595909826389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/DFS/Num Ways" />
+    <SUITE FILE_PATH="coverage/python$dp.coverage" NAME="dp Coverage Results" MODIFIED="1599082653840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Minimum Adjustment Cost" />
+    <SUITE FILE_PATH="coverage/python$Spiral_Matrix_II.coverage" NAME="Spiral Matrix II Coverage Results" MODIFIED="1569553286077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Spiral Matrix II" />
+    <SUITE FILE_PATH="coverage/python$Union_Find.coverage" NAME="Union_Find Coverage Results" MODIFIED="1568842898245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/BFS/Number Of Island" />
+    <SUITE FILE_PATH="coverage/python$Union_find.coverage" NAME="Union_find Coverage Results" MODIFIED="1565996611911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands" />
+    <SUITE FILE_PATH="coverage/python$Sliding_Window.coverage" NAME="Sliding Window Coverage Results" MODIFIED="1572210752830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon OA/Intern/Substrings of size K with K distinct chars" />
+    <SUITE FILE_PATH="coverage/python$two_pointer.coverage" NAME="two_pointer Coverage Results" MODIFIED="1599082954917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/two_pointers/同向双指针/Gene Similarity" />
+    <SUITE FILE_PATH="coverage/python$longest_palindrome.coverage" NAME="longest_palindrome Coverage Results" MODIFIED="1560264066394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$bfs__2_.coverage" NAME="bfs (2) Coverage Results" MODIFIED="1598477067198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/BFS/Modern Ludo I" />
     <SUITE FILE_PATH="coverage/python$dp__2_.coverage" NAME="dp (2) Coverage Results" MODIFIED="1565796379490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II" />
-    <SUITE FILE_PATH="coverage/python$dp_nlogn_best_solution.coverage" NAME="dp_nlogn_best_solution Coverage Results" MODIFIED="1565992064327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence" />
+    <SUITE FILE_PATH="coverage/python$temp.coverage" NAME="temp Coverage Results" MODIFIED="1579139751392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$power_fast_iterative.coverage" NAME="power_fast_iterative Coverage Results" MODIFIED="1562078282573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search/50. Pow(x, n)" />
+    <SUITE FILE_PATH="coverage/python$solution.coverage" NAME="solution Coverage Results" MODIFIED="1562245520317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/To Be Classified/Recover Rotated Sorted Array" />
+    <SUITE FILE_PATH="coverage/python$Unittests_in_Knight_Shortest_Path.coverage" NAME="Unittests in Knight Shortest Path Coverage Results" MODIFIED="1560264080997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Graph/Knight Shortest Path" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1572192042461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon OA/Substrings of size K with K distinct chars" />
     <SUITE FILE_PATH="coverage/python$solution1__1_.coverage" NAME="solution1 (1) Coverage Results" MODIFIED="1562764858669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree/901. Closest Binary Search Tree Value II" />
+    <SUITE FILE_PATH="coverage/python$dfs_memo_optimized.coverage" NAME="dfs_memo_optimized Coverage Results" MODIFIED="1598479314722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/DFS/Word Break II" />
+    <SUITE FILE_PATH="coverage/python$level_order_traversal.coverage" NAME="level_order_traversal Coverage Results" MODIFIED="1560786028633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Graph/Word Ladder" />
+    <SUITE FILE_PATH="coverage/python$binary_search.coverage" NAME="binary_search Coverage Results" MODIFIED="1562072775467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search/Search in Rotated Sorted Array" />
+    <SUITE FILE_PATH="coverage/python$matrix.coverage" NAME="matrix Coverage Results" MODIFIED="1566854314403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Easy Collection/Sparse_Matrix" />
+    <SUITE FILE_PATH="coverage/python$BFS.coverage" NAME="BFS Coverage Results" MODIFIED="1597796013340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/BFS/Number Of Island" />
+    <SUITE FILE_PATH="coverage/python$two_pointer_binary_search_answer.coverage" NAME="two_pointer_binary_search_answer Coverage Results" MODIFIED="1597784296566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/two_pointers/计数双指针/The Kth Largest Sum" />
+    <SUITE FILE_PATH="coverage/python$UTF_8_Validation.coverage" NAME="UTF-8 Validation Coverage Results" MODIFIED="1573427552239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Apple/Bit" />
+    <SUITE FILE_PATH="coverage/python$dfs_memorization.coverage" NAME="dfs_memorization Coverage Results" MODIFIED="1565694659286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/109. Triangle" />
+    <SUITE FILE_PATH="coverage/python$bfs__1_.coverage" NAME="bfs (1) Coverage Results" MODIFIED="1600399000742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Didi OA/Graph Is Circle" />
+    <SUITE FILE_PATH="coverage/python$BFS__1_.coverage" NAME="BFS (1) Coverage Results" MODIFIED="1598479355172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/BFS/Word Ladder" />
+    <SUITE FILE_PATH="coverage/python$binary_search__1_.coverage" NAME="binary_search (1) Coverage Results" MODIFIED="1562138643811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search/Find Peak Element" />
+    <SUITE FILE_PATH="coverage/python$deserialize.coverage" NAME="deserialize Coverage Results" MODIFIED="1560780554429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/BinaryTree/Deserialize binary tree" />
+    <SUITE FILE_PATH="coverage/python$trial.coverage" NAME="trial Coverage Results" MODIFIED="1568742352801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Collection of unique problems/Add Two Numbers II" />
+    <SUITE FILE_PATH="coverage/python$LRU_cache.coverage" NAME="LRU cache Coverage Results" MODIFIED="1565551465428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/HashMap" />
+    <SUITE FILE_PATH="coverage/python$DP.coverage" NAME="DP Coverage Results" MODIFIED="1573327121902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Apple/DP/Knight Probability in Chessboard" />
+    <SUITE FILE_PATH="coverage/python$dp_top_down.coverage" NAME="dp_top_down Coverage Results" MODIFIED="1565704109306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/109. Triangle" />
+    <SUITE FILE_PATH="coverage/python$Interleaving_String.coverage" NAME="Interleaving String Coverage Results" MODIFIED="1573326825545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Apple/String/Interleaving String" />
+    <SUITE FILE_PATH="coverage/python$dp_nlogn_best_solution.coverage" NAME="dp_nlogn_best_solution Coverage Results" MODIFIED="1565992064327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence" />
+    <SUITE FILE_PATH="coverage/python$bfs.coverage" NAME="bfs Coverage Results" MODIFIED="1599182972982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/BFS/Lake Escape" />
+    <SUITE FILE_PATH="coverage/python$single_linked_list.coverage" NAME="single_linked_list Coverage Results" MODIFIED="1570459945031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Data Structures/LRU Cache" />
+    <SUITE FILE_PATH="coverage/python$dp_optimized.coverage" NAME="dp_optimized Coverage Results" MODIFIED="1595012647361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Dynamic Programming/Num Ways" />
+    <SUITE FILE_PATH="coverage/python$bfs_2_direction.coverage" NAME="bfs_2_direction Coverage Results" MODIFIED="1566952388135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Graph/796. Open the Lock" />
+    <SUITE FILE_PATH="coverage/python$trie.coverage" NAME="trie Coverage Results" MODIFIED="1571349619291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Data Structures/Trie/Concatenated Words" />
+    <SUITE FILE_PATH="coverage/python$priority_queue.coverage" NAME="priority_queue Coverage Results" MODIFIED="1567349587484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/Data Structures/Heap/Task Scheduler" />
+    <SUITE FILE_PATH="coverage/python$dp__1_.coverage" NAME="dp (1) Coverage Results" MODIFIED="1565743423200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Dymamic Programming/115. Unique Paths II" />
+    <SUITE FILE_PATH="coverage/python$divide_conquer_map.coverage" NAME="divide_conquer_map Coverage Results" MODIFIED="1562245629425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinaryTree/Binary_Search_Tree" />
+    <SUITE FILE_PATH="coverage/python$dfs__1_.coverage" NAME="dfs (1) Coverage Results" MODIFIED="1564670440868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Implicit DFS/153. Combination Sum II" />
+    <SUITE FILE_PATH="coverage/python$Search_in_a_Big_Sorted_Array.coverage" NAME="Search in a Big Sorted Array Coverage Results" MODIFIED="1562070392809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Search" />
+    <SUITE FILE_PATH="coverage/python$brute_force.coverage" NAME="brute-force Coverage Results" MODIFIED="1572390055440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Amazon OA/Intern/Substrings with exactly K distinct chars" />
+    <SUITE FILE_PATH="coverage/python$Union_find__1_.coverage" NAME="Union_find (1) Coverage Results" MODIFIED="1566002224265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data Structure/Union Find/Number of Islands" />
+    <SUITE FILE_PATH="coverage/python$segment_tree.coverage" NAME="segment_tree Coverage Results" MODIFIED="1566952809940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Template" />
     <SUITE FILE_PATH="coverage/python$clever.coverage" NAME="clever Coverage Results" MODIFIED="1560785580198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BFS/Graph/Clone Graph" />
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>left == 1</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>len(current_queue) == 0</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>index == 4</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>index == 3</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="watch">
-      <expression>
-        <expression-string>target</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>self.father[target]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>triangle[1][1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>is_possible[i][j] or \                                                 (is_possible[i - 1][j] and p[                                                     j - 2] ==                                                  s[i - 1] or p[j - 2] == &quot;.&quot;)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lru.tail.prev.next.val</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lru.tail,prev.next.val</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lru.tail.prev.val</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lru.tail.val</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lru.tail</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lru.head</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>palindrome_table[candidate_start_index+1][candidate_end_index-1]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/154. Regular Expression Matching/dfs+memorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/wildcard_matching/dp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" selection-start-line="8" selection-end-line="43" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_bottom_up.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/109. Triangle/dfs_memorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/114. Unique Paths/dp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/115. Unique Paths II/dp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/111. Climbing Stairs/dp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/110. Minimum Path Sum/dp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_top_down.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/109. Triangle/dp_top_down_optimized.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/dp_optimized.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="29" selection-start-line="29" selection-end-line="30" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/bfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="48" column="49" lean-forward="true" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="17" lean-forward="true" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/603. Largest Divisible Subset/largest_divisible_set.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/Russian Doll Envelopes/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Search/Find Minimum in Rotated Sorted Array/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Search/Last Position of Target/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/630. Knight Shortest Path II/dp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_print_best_solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_nlogn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Two Pointers/fast_slow/406. Minimum Size Subarray Sum/fast_slow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Two Pointers/fast_slow/384. Longest Substring Without Repeating Characters/fast_slow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="12" lean-forward="true" selection-end-line="28" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Two Pointers/fast_slow/386. Longest Substring with At Most K Distinct Characters/fast_slow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/76. Longest Increasing Subsequence/dp_nlogn_best_solution.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="35" column="73" selection-start-line="35" selection-start-column="73" selection-end-line="35" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Search/Find Peak Element/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Binary Search/Search in Rotated Sorted Array/binary_search.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/HashMap/LRU cache.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Two Pointers/quick_select/31. Partition Array/two_pointers.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Two Pointers/quick_select/143. Sort Colors II/two_pointers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Two Pointers/quick_select/5. Kth Largest Element/5. Kth Largest Element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Two Pointers/quick_select/461. Kth Smallest Numbers in Unsorted Array/461. Kth Smallest Numbers in Unsorted Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="29" column="29" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/quick_select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/heap/401. Kth Smallest Number in Sorted Matrix/heap_quick_select.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="39" column="31" lean-forward="true" selection-end-line="48" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Union Find/Accounts Merge/union_find.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Union Find/Number of Islands/Union_find_decrease_island.py" />
-    <entry file="file://$PROJECT_DIR$/Template/union_find.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dymamic Programming/582. Word Break II/dfs_memorization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Trie/442. Implement Trie (Prefix Tree)/trie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/trie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Trie/473. Add and Search Word - Data structure design/trie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/heap/364. Trapping Rain Water II/Heap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="33" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Template/quick_sort.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Union Find/Accounts Merge/union_find_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" column="28" selection-start-line="69" selection-start-column="28" selection-end-line="69" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Union Find/Number of Islands/Union_find.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Stack/12. Min Stack/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Stack/575. Decode String/stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="32" lean-forward="true" selection-start-line="29" selection-start-column="32" selection-end-line="29" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Implicit DFS/16. Permutations II/dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Stack/575. Decode String/dfs.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data Structure/Stack/575. Decode String/iterative+dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/python$two_pointers.coverage" NAME="two_pointers Coverage Results" MODIFIED="1568480065116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/High_Frequency/two_pointers/Longest Palindromic Substring" />
   </component>
 </project>
