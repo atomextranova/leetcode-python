@@ -13,6 +13,9 @@ class Solution:
         self.min_index = float('inf')
         self.max_index = float('-inf')
 
+    # use min_index/max_index to keep track of vertical index range
+    # store list of node in a dict with different vertical indexes as keys
+    # Use queue, keep track of vertical index, add child nodes to the queue
     def verticalOrder(self, root: TreeNode) -> List[List[int]]:
         if not root:
             return []

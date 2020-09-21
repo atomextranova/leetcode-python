@@ -15,7 +15,8 @@ class Trie:
     @param: word: a word
     @return: nothing
     """
-
+    # Continuously construct node for each char in word
+    # set the final node to be true
     def insert(self, word):
         # write your code here
         node = self.root
@@ -26,6 +27,8 @@ class Trie:
 
         node.is_word = True
 
+    # Helper function
+    # return the node for word's final char or none
     def find(self, word):
         node = self.root
         for char in word:

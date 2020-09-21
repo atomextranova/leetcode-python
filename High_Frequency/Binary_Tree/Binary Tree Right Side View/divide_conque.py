@@ -15,7 +15,15 @@ class Solution:
         result = []
         self.helper(root, result, 1)
         return result
+    # Traverse top down, right to left, check depth at each node
+    # The right side view contains node which has depth larger than
+    # all nodes before it when traversing in this order
 
+    # 1.DFS, divide and conquer
+    # 2.top - down, right to left
+    # 3.self.max_level = 0
+    # 4.record level, for every level > max_level,
+    #     that node is on the right, max_level = level
     def helper(self, root, result, level):
 
         if not root:

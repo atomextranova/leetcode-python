@@ -21,6 +21,10 @@ class Solution:
         self.leaves_helper(root)
         return self.leaves
 
+    # recursion, keep track of height (bot = 0, root = max_height),
+    # self.leaves = []
+    # create list for each new height seen, where height = max(left, right) + 1
+    # insert value B
     def leaves_helper(self, node):
 
         if not node:

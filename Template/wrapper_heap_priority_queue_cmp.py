@@ -28,4 +28,8 @@ class Wrapper(object):
     def __repr__(self):
         return self.source.__repr__()
 
+class Wrapper2(object):
+
+    def __lt__(self, other):
+        return self.intAttribute < other.intAttribute
 

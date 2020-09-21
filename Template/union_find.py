@@ -5,7 +5,7 @@ class UnionFind:
         for i in range(n):
             self.father[i] = i
         self.rank = {}
-        for i in range[n]:
+        for i in range(n):
             self.rank[i] = 1
 
     # Path compression

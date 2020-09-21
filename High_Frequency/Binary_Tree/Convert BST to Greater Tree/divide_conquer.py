@@ -13,6 +13,9 @@ class Solution:
     @return: the new root
     """
 
+    # Traversal order: right->root->left (post)
+    # root.val = cur_sum (Sum of all nodes before it)
+    # cur_sum += root.val
     def convertBST(self, root):
         # write your code here
         self.cur_sum = 0

@@ -12,7 +12,8 @@ class Solution:
 
         return self.helper(root, float('inf'), float('-inf'))
 
-    # Need to keep track of max_val until now to make sure left subtree of children in the right of a node has smaller value than that node
+    # Need to keep track of max_val until now to make sure left
+    # subtree of children in the right of a node has smaller value than that node
 
     # Cases:
     # duplicates: False

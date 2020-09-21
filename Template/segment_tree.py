@@ -1,5 +1,7 @@
 class SegmentTree(object):
-
+    # 总结
+    # 区间操作，修改值或者一段的值
+    # 询问区间性质：最大，最小，和。。
     def __init__(self, start, end, cur_sum=0):
         self.start = start
         self.end = end
